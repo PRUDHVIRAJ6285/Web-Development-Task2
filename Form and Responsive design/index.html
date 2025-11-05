@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h2>My Website</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <h1>Welcome</h1>
+        <p>Scroll down to learn more</p>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About This Project</h2>
+        <p>This project includes a responsive contact form created using HTML for structure, CSS Flexbox and Grid for layout, and JavaScript for form validation and dynamic success or error message display.</p>
+    </section>
+
+    <section class="container" id="contact">
+        <div class="left">
+            <h1>Contact Us</h1>
+            <p>Send us a message</p>
+        </div>
+
+        <div class="right">
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Enter Name">
+                <input type="email" id="email" placeholder="Enter Email">
+                <textarea id="message" placeholder="Enter Message"></textarea>
+                <p id="formMessage"></p>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+<script src="script.js"></script>
+</body>
+</html>
